@@ -71,13 +71,11 @@ Using latitude and longitude coordinates, each Stoicism-related tweet was revers
 Tweets were processed using offline reverse geocoding (reverse_geocoder) to ensure speed, scalability, and data security.
 Batch processing (10,000 points per batch) was implemented to handle over 1.6 million coordinates without memory overload.
 Country names were mapped using the pycountry library for standardized naming.
-Output:
+Outputs:
 tweets_by_country.csv: Contains the number of tweets per country along with the ISO country code.
-🏆 Top 10 countries are automatically displayed when running the pipeline, enabling rapid insights into the global distribution of Stoicism discourse.
+top10_countries_stoicism.png: Visualization of the Top 10 countries with the most Stoicism-related tweets.
+🏆 Top 10 countries are automatically displayed when running the pipeline.
 
-
-This dataset enables comparative analysis of Stoicism's digital presence across nations.
-🏆 Top 10 countries are also displayed automatically when running the pipeline.
 
 
 🧩 HOW TO RUN
