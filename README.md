@@ -67,6 +67,15 @@ Using latitude and longitude, each tweet was reverse-geocoded to a country code,
 - Output saved in:
 tweets_by_country.csv
 
+Using latitude and longitude coordinates, each Stoicism-related tweet was reverse-geocoded to a country code, generating a detailed country-level summary.
+Tweets were processed using offline reverse geocoding (reverse_geocoder) to ensure speed, scalability, and data security.
+Batch processing (10,000 points per batch) was implemented to handle over 1.6 million coordinates without memory overload.
+Country names were mapped using the pycountry library for standardized naming.
+Output:
+tweets_by_country.csv: Contains the number of tweets per country along with the ISO country code.
+🏆 Top 10 countries are automatically displayed when running the pipeline, enabling rapid insights into the global distribution of Stoicism discourse.
+
+
 This dataset enables comparative analysis of Stoicism's digital presence across nations.
 🏆 Top 10 countries are also displayed automatically when running the pipeline.
 
@@ -92,7 +101,7 @@ Optimized for high-performance computing environments (HPC).
 
 
 👨‍💻👩‍💻 AUTHORS
-Rafael P. Albuquerque — Federal University of Rio Grande do Sul (UFRGS) | Visiting Fellow at Harvard CGA
+Rafael Albuquerque — Federal University of Rio Grande do Sul (UFRGS) | Visiting Fellow at Harvard CGA
 Devika Jain — Harvard Center for Geographic Analysis (CGA)
 
 
