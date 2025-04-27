@@ -17,7 +17,7 @@ We leverage spatial and temporal analysis to track the presence and intensity of
 message_id, date, text, tags, tweet_lang, place, latitude, longitude, etc.
 📌 Note: The original geotagged dataset is private and not publicly available due to data usage agreements.
 
-🧠 KEYWORD FILTERING
+- KEYWORD FILTERING
 The analysis uses two levels of keyword matching to ensure precision and coverage:
 
 🔍 Wildcard Keywords (prefix matching):
@@ -43,14 +43,14 @@ The workflow follows a structured process:
 
 Full implementation is available in the notebook Geotweets_Stoicism_Analysis_v5.ipynb.
 
-📈 OUTPUTS
+- OUTPUTS
 - keyword_frequencies_by_year.csv: Yearly keyword frequency dataset.
 - stoicism_cluster_summary.csv: Spatial clustering of Stoicism tweets.
 - tweets_by_country.csv: Summary of tweets per country (based on latitude/longitude).
 - Trend graphs (4 PNG images) illustrating keyword trends from 2010 to 2023.
 - Jupyter Notebook with full reproducible code and methodology.
 
-🌍 CLUSTERING ANALYSIS (SPATIAL DISTRIBUTION)
+- CLUSTERING ANALYSIS (SPATIAL DISTRIBUTION)
 An optional spatial analysis was performed using the HDBSCAN clustering algorithm (haversine distance) on geolocated tweets.
 - Minimum cluster size: 30 points
 - Minimum samples per cluster: 10
@@ -61,7 +61,7 @@ The cluster centroids and tweet counts are saved in:
 This enables further analysis of the geographic density and spatial patterns of Stoicism discourse.
 
 
-🌎 COUNTRY-LEVEL ANALYSIS (GEOLOCATION-BASED)
+- COUNTRY-LEVEL ANALYSIS (GEOLOCATION-BASED)
 Using latitude and longitude, each tweet was reverse-geocoded to a country code, generating a country-level summary of Stoicism activity.
 - Tweets matched using offline reverse geocoding for speed and security.
 - Output saved in:
@@ -74,11 +74,11 @@ Country names were mapped using the pycountry library for standardized naming.
 Outputs:
 tweets_by_country.csv: Contains the number of tweets per country along with the ISO country code.
 top10_countries_stoicism.png: Visualization of the Top 10 countries with the most Stoicism-related tweets.
-🏆 Top 10 countries are automatically displayed when running the pipeline.
+- Top 10 countries are automatically displayed when running the pipeline.
 
 
 
-🧩 HOW TO RUN
+- HOW TO RUN
 1. Clone the repository:
 git clone https://github.com/cga-harvard/Geotweets-Stoicism-analysis.git
 2. Open the Geotweets_Stoicism_Analysis_v5.ipynb notebook.
@@ -86,7 +86,7 @@ git clone https://github.com/cga-harvard/Geotweets-Stoicism-analysis.git
 4. Execute all cells to reproduce the analysis.
 
 
-⚙️ Requirements:
+- Requirements:
 Python 3.11+
 pandas
 matplotlib
@@ -98,12 +98,12 @@ Optimized for high-performance computing environments (HPC).
 
 
 
-👨‍💻👩‍💻 AUTHORS
+- AUTHORS
 Rafael Albuquerque — Federal University of Rio Grande do Sul (UFRGS) | Visiting Fellow at Harvard CGA
 Devika Jain — Harvard Center for Geographic Analysis (CGA)
 
 
 
-🙏 ACKNOWLEDGMENTS
+- ACKNOWLEDGMENTS
 This research was conducted at the Harvard Center for Geographic Analysis (CGA).
 Special thanks to the CGA research team and affiliated collaborators for their support.
