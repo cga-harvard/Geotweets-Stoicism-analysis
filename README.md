@@ -99,8 +99,8 @@ Optimized for high-performance computing environments (HPC).
 
 
 - AUTHORS
-Rafael Albuquerque — Federal University of Rio Grande do Sul (UFRGS) | Visiting Fellow at Harvard CGA
-Devika Jain — Harvard Center for Geographic Analysis (CGA)
+  - Rafael Albuquerque — Federal University of Rio Grande do Sul (UFRGS) | Visiting Fellow at Harvard CGA
+  - Devika Jain — Harvard Center for Geographic Analysis (CGA)
 
 
 
