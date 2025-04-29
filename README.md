@@ -41,7 +41,7 @@ The workflow follows a structured process:
 6. Country-Level Summary 🌍 — Aggregate tweets per country based on geolocation.
 7. Output Generation 📄 — Export CSV datasets and visual outputs.
 
-Full implementation is available in the notebook Geotweets_Stoicism_Analysis_v5.ipynb.
+Full implementation is available in the notebook Geotweets_Stoicism_Analysis_v6.ipynb.
 
 - OUTPUTS
 - keyword_frequencies_by_year.csv: Yearly keyword frequency dataset.
