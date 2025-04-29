@@ -75,25 +75,29 @@ Outputs:
 tweets_by_country.csv: Contains the number of tweets per country along with the ISO country code.
 top10_countries_stoicism.png: Visualization of the Top 10 countries with the most Stoicism-related tweets.
 - Top 10 countries are automatically displayed when running the pipeline.
-- 
+  
 
-🗓️ Yearly Tweet Count Summary
-A total of 1,670,801 Stoicism-related tweets were extracted between 2010 and 2023. The table below shows the distribution by year:
-Year    Tweets
----------------
-2011         1
-2012     1,275
-2013   154,557
-2014   301,105
-2015   147,553
-2016    41,050
-2017    54,719
-2018   115,224
-2019   235,449
-2020   206,053
-2021   153,282
-2022   214,783
-2023    45,750
+### 🗓️ Yearly Tweet Count Summary
+
+A total of **1,670,801** Stoicism-related tweets were extracted between 2010 and 2023. The table below shows the distribution by year:
+
+| Year | Tweets   |
+|:----:|---------:|
+| 2011 |        1 |
+| 2012 |    1,275 |
+| 2013 |  154,557 |
+| 2014 |  301,105 |
+| 2015 |  147,553 |
+| 2016 |   41,050 |
+| 2017 |   54,719 |
+| 2018 |  115,224 |
+| 2019 |  235,449 |
+| 2020 |  206,053 |
+| 2021 |  153,282 |
+| 2022 |  214,783 |
+| 2023 |   45,750 |
+
+📄 CSV file available at: `tweet_counts_by_year.csv`
 
 
 
